@@ -86,7 +86,7 @@ sudo docker-compose ps
 
 Команда создаёт на компьютере точную копию репозитория, включая все его данные, историю и ветви. Используется для клонирования удалённого репозитория git clone https://githab.com/nivxxo/Ivantsova.git
  
-![image](https://github.com/user-attachments/assets/53275c24-e9ff-407a-a521-b91f5faa4d12)
+![image](https://github.com/user-attachments/assets/e976873a-1166-470e-9252-4f8312b60f74)
 
 Команда ls выводит список содержимого домашнего каталога. В выходных данных отображаются такие каталоги, как Desktop, Downloads, Documents, Music Public, Pictures Templates, grafana_stack_for_docker
 
@@ -107,4 +107,49 @@ mv prometeus.yaml prometheus.yaml переименовывыем prometeus.yaml 
 ls перечисляем каталоги на выходе отображаются docker-compose.yaml и prometheus.yaml
 
 sudo docker compose down запускаеся docker compose down с помощью sudo, что останавливает и удаляет контейнеры Docker, определённые в файле docker-compose.yaml в текущем каталоге.
+
+![image](https://github.com/user-attachments/assets/5cb269ea-af4c-41a1-a2f9-eef01694fcfd)
+
+sudo vi prometheus.yaml команда открывает файл prometheus.yaml в текстовом редакторе vi с правами суперпользователя. 
+
+![image](https://github.com/user-attachments/assets/5f2d1c71-e100-4c3c-9169-5295036ee9a3)
+
+cp prometheus.yaml prometheus.yaml1 Пытаемся скопировать файл prometheus.yaml в новый файл с именем prometheus.yaml1 Использует ls команду для перечисления содержимого config каталога.
+
+Выходные данные команды ls показывают файлы в каталоге: loki.yaml, prometheus.yaml, prometheus.yaml1 (копия, которая была только что создана), promtail.yaml, web-config.yaml.
+
+![image](https://github.com/user-attachments/assets/7e7963b8-2e1d-4afe-b998-1d8c6823ef2f)
+
+cd cd без аргумента, который по умолчанию должен возвращать в домашний каталог пользователя.
+
+ls команда ls выводит список содержимого домашнего каталога. В выходных данных отображаются такие каталоги, как Desktop, Downloads, Documents, Music Public, Pictures Templates, grafana_stack_for_docker.
+
+cd grafana_stack_for_docker/ Используется команда cd для смены текущего каталога на grafana_stack_for_docker, который был найден в списке домашнего каталога
+
+ls Приглашение показывает, что пользователь теперь находится в grafana_stack_for_docker каталоге.
+
+ls перечисляет содержимое каталога.
+
+На выходе отображаются файлы и каталоги, такие как config, GD, Screenshot_Loki.png, docker-compose.yaml, Readme.md и Screenshot_Prometheus.png.
+
+cd GD снова меняется каталог, на этот раз на каталог GD, который был в списке grafana_stack_for_docker.
+
+ls ls перечисляет содержимое GD каталога, показывая 1 и README.md
+
+cd 1 пытаемся использовать правильную команду «cd», чтобы сменить каталог на «1»
+
+ls перечисляется содержимое каталога 1.
+
+На выходе отображаются «docker-compose.yaml» и «prometheus.yaml».
+
+sudo cp prometheus.yaml /mnt/common_volume/swarm/grafana/config: пытаемся скопировать файл prometheus.yaml из текущего каталога (/mnt/common_volume/swarm/grafana/config). «sudo» означает, что потребуются повышенные права.
+
+![image](https://github.com/user-attachments/assets/815a9dbc-7503-48a6-afa7-ac41a2ea128a)
+
+sudo docker compose up -d
+
+Снова используется sudo для выполнения следующей команды в качестве суперпользователя. docker compose up -d: docker compose up команда — это часть интерфейса командной строки Docker Compose. Она указывает Docker Compose на необходимость создания (при необходимости) и запуска контейнеров, определённых в файле docker-compose.yaml в текущем каталоге. -d - Отдельный режим. Этот флаг указывает Docker Compose на необходимость запуска контейнеров в фоновом режиме.
+
+![image](https://github.com/user-attachments/assets/a829818c-d3a2-42bc-acf1-e51cbbd5a69d)
+
 
