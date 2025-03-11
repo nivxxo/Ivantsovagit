@@ -80,6 +80,11 @@ sudo docker-compose ps
 
 ![image](https://github.com/user-attachments/assets/8bc7f45a-ba24-49c3-889b-395e1300e93d)
 
+Создаем папку 1 и переносим туда файлы docker-compose.yaml и prometeus.yaml
+
+![image](https://github.com/user-attachments/assets/a11b4b9c-3fb3-4b51-97ae-a51c9789f6f4)
+
+Команда создаёт на компьютере точную копию репозитория, включая все его данные, историю и ветви. Используется для клонирования удалённого репозитория git clone https://githab.com/GerasikinaD/GD.git
  
 
 
