@@ -84,8 +84,27 @@ sudo docker-compose ps
 
 ![image](https://github.com/user-attachments/assets/a11b4b9c-3fb3-4b51-97ae-a51c9789f6f4)
 
-Команда создаёт на компьютере точную копию репозитория, включая все его данные, историю и ветви. Используется для клонирования удалённого репозитория git clone https://githab.com/GerasikinaD/GD.git
+Команда создаёт на компьютере точную копию репозитория, включая все его данные, историю и ветви. Используется для клонирования удалённого репозитория git clone https://githab.com/nivxxo/Ivantsova.git
  
+![image](https://github.com/user-attachments/assets/53275c24-e9ff-407a-a521-b91f5faa4d12)
 
+Команда ls выводит список содержимого домашнего каталога. В выходных данных отображаются такие каталоги, как Desktop, Downloads, Documents, Music Public, Pictures Templates, grafana_stack_for_docker
 
+cd grafana_stack_for_docker/ Используется команду cd для смены текущего каталога на grafana_stack_for_docker, который был найден в списке домашнего каталога.
+
+ls перечисляет содержимое каталога. На выходе отображаются файлы и каталоги, такие как config, GD, Screenshot_Loki.png, docker-compose.yaml, Readme.md и Screenshot_Prometheus.png
+
+`cd GD Снова меняется каталог, на этот раз на каталог GD, который был в списке grafana_stack_for_docker
+
+ls перечисляет содержимое GD каталога, показывая 1 и README.md
+
+cd 1 меняем каталог на каталог 1.
+
+ls на выходе отображаются docker-compose.yaml и prometeus.yaml.
+
+mv prometeus.yaml prometheus.yaml переименовывыем prometeus.yaml в prometheus.yaml. Обратите внимание на опечатку в первом случае. Эта команда, скорее всего, приведёт к ошибке «Нет такого файла или каталога» или аналогичной.
+
+ls перечисляем каталоги на выходе отображаются docker-compose.yaml и prometheus.yaml
+
+sudo docker compose down запускаеся docker compose down с помощью sudo, что останавливает и удаляет контейнеры Docker, определённые в файле docker-compose.yaml в текущем каталоге.
 
