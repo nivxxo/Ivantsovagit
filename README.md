@@ -59,10 +59,26 @@ sudo docker compose up -d
 ![image](https://github.com/user-attachments/assets/79d02951-9550-47dc-b129-a48291a67a16)
 Открывает файл docker-compose.yaml в текстовом редакторе vi с правами суперпользователя, что позволяет вам редактировать его содержимое. Нас перекинет в текстовый редактор. Что-бы что-то изменить в тесковом редакторе нажмите insert на клавиатуре. Что бы сохранить что-то в этом документе нажимаем Esc пишем :wq! В этом текставом редакторе мы должны поставить node-exporter после services
 sudo vi docker-compose.yaml
+![image](https://github.com/user-attachments/assets/507f0509-b771-4865-b309-f4abac235823)
+Отображаем список запущенных контейнеров и их статусов. Эта команда показываем статусы всех сервиров определённых в файле docker-compose.yml.
+sudo docker-compose ps
+![image](https://github.com/user-attachments/assets/04034dc1-03db-4754-be2d-26639ea053e0)
 
+мы сделали команду sudo docker compose stop выполяем остановку контейниров. Данная команда останавливает работу запущенных контейнеров, но не удаляет их.
 
+![image](https://github.com/user-attachments/assets/1e773e4b-42bc-42f3-b36d-d853f552cf2a)
 
+После мы снова вводим sudo docker compose up -d. Данная команда запускает приложение в фоновом режиме, то есть, в этом режиме контейнеры будут работать в фоновом режиме, и вывод команды не будет отображаться в терминале.
 
+![image](https://github.com/user-attachments/assets/b04f74fa-4364-4133-b165-fa85ff822881)
+
+Используем ещё одну команду sudo docker compose down. Данаая команда останавливает и удаляет все контейнеры, а также тома, связанные с ними, определённые в файле docker-compose.yml.
+
+![image](https://github.com/user-attachments/assets/9da406dc-f6ed-4f54-9d5a-bb2bfafedaa6)
+
+Ещё раз поднимаем sudo docker compose up -d для того что бы запустить контейнеры.
+
+![image](https://github.com/user-attachments/assets/8bc7f45a-ba24-49c3-889b-395e1300e93d)
 
  
 
