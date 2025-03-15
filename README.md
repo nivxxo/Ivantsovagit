@@ -231,4 +231,10 @@ Grafana
 
 ![image](https://github.com/user-attachments/assets/b95ba595-bc1b-4dc4-830b-819be326e4ca)
 
+![image](https://github.com/user-attachments/assets/d7058356-69c4-43bb-822b-0ead47fa46a1)
+
+![image](https://github.com/user-attachments/assets/69f8ea49-6555-46c8-ab08-c9bee30bcb76)
+
+![image](https://github.com/user-attachments/assets/5ac023bc-67a9-4500-a386-9e13c4cfb976)
+
 
