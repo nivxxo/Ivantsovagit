@@ -213,5 +213,22 @@ sudo docker compose up -d
 
 ![image](https://github.com/user-attachments/assets/a829818c-d3a2-42bc-acf1-e51cbbd5a69d)
 
+![image](https://github.com/user-attachments/assets/b447edb0-2985-44a6-9d0f-0b7c33b905a5)
+
+
+Grafana
+
+Переходим на сайт localhost:3000
+
+![image](https://github.com/user-attachments/assets/00d103f4-2aa9-4601-ab42-594589d96b0d)
+
+
+![image](https://github.com/user-attachments/assets/69961d42-f690-4614-ac48-7f6784e2d210)
+
+![image](https://github.com/user-attachments/assets/235904a0-3d1e-435d-8b05-3c268cbec028)
+
+![image](https://github.com/user-attachments/assets/c04e9c3e-d302-4495-a83e-78263240b84b)
+
+![image](https://github.com/user-attachments/assets/b95ba595-bc1b-4dc4-830b-819be326e4ca)
 
 
