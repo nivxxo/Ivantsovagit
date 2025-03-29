@@ -266,5 +266,41 @@ Select Prometheus ждем кнопку "Import"
 
 ![image](https://github.com/user-attachments/assets/783a93f0-1ef6-4765-aa53-7935a5d5e03d)
 
+VictoriaMetrics
+
+Вводим команду 
+
+echo -e "# TYPE light_metric1 gauge\nlight_metric1 0" | curl --data-binary @- http://localhost:8428/api/v1/import/prometheusь -  отправляет двоичные данные метрики в формате Prometheus, который прослушивает порт 8428
+
+Переходим в браузер по ссылке http:/localhost:8428/, нам откроется меню нужно выбрать vmui
+
+![image](https://github.com/user-attachments/assets/fc075049-5478-486d-bfa2-c7ab0b5f5b95)
+
+В открывшееся окно мы вписываем light_metric1и жмем на Execute Query
+
+![image](https://github.com/user-attachments/assets/8399752a-155b-4b8c-a514-f87d98b138fc)
+
+Вписываем:
+
+Имя: VikMetrics
+
+Полключение: http://victoriametrics:8428
+
+![image](https://github.com/user-attachments/assets/c44163e6-ccf2-4b4c-ae8f-c1a4e3a9f8f5)
+
+Вводим light_metric1 и смотрим на панель с графиком
+
+![image](https://github.com/user-attachments/assets/b4c70c25-c894-49f1-ade0-6aebb728ccc9)
+
+Панель с графиком
+
+![image](https://github.com/user-attachments/assets/7132bd08-14a4-48aa-a224-09ad9db4d46d)
+
+Открываем http://localhost:8428 - vmui и смотрим что все работает 
+
+![image](https://github.com/user-attachments/assets/fcbb1541-8d8b-49b0-8a08-eab3fdc69721)
+
+
+
 
 
