@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/1326ec66-efc5-4092-b755-823932e6c9d1)
+![image](https://github.com/user-attachments/assets/e4d00a81-3fae-4a9c-ab5c-0d7a62f3b89d)
+
 
 
 Отчет по виртуалке Перед началой установки, нужно установить Linux Oracle на VirtualBox, для этого нужно: Иметь образ Linux Выделить 2+ ядер. Выделать 4096+ МБ оперативы, и обязательно при установки мы выбираем английский язык. Мы переходим к установке docker с использованием grafana. Вводим следующий код: Устанавливаем утилиту Wget
